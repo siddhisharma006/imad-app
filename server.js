@@ -10,7 +10,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/Article-one', function (req, res) {
-    res.send('Article one requested will be sent here');
+    res.send('Hello to all I am Siddhi Sharma,a student of class nineth.Daughter of Mr.Vivek And Mrs Shardha Sharma.');
 });
     
 app.get('/Article-two', function (req, res) { 
