@@ -10,15 +10,15 @@ app.get('/', function (req, res) {
 });
 
 app.get('/Article-one', function (req, res) {
-    res.send('Hello to all I am Siddhi Sharma,a student of class nineth.Daughter of Mr.Vivek And Mrs Shardha Sharma.');
+   res.sendFile(path.join(__dirname, 'ui', 'article one.html'));
 });
     
 app.get('/Article-two', function (req, res) { 
-    res.send('Article two requested will be sent here');
+    res.sendFile(path.join(__dirname, 'ui', 'index.html')); 
 });
     
     app.get('/Article-three', function (req, res) {
-    res.send('Article three requested will be sent here');
+    res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
     
 app.get('/ui/style.css', function (req, res) {
