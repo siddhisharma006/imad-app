@@ -14,4 +14,5 @@ var element= document.getElementById('main text'
    }
    img.onclick = function () {
        var interval = setInterval(moveRight, 100);
+       varinterval= setInterval(moveLeft,100);
    };
