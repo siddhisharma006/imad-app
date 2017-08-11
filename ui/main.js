@@ -13,5 +13,5 @@ var element= document.getElementById('main text'
        img.style.marginLeft = marginLeft + 'px';
    }
    img.onclick = function () {
-       var interval = seeInterval(moveRight, 100);
+       var interval = setInterval(moveRight, 100);
    };
