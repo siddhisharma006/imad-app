@@ -13,6 +13,10 @@ app.get('/Article-one', function (req, res) {
    res.sendFile(path.join(__dirname, 'ui', 'Article-one.html'));
 });
     
+app.get('/test db', function (req, res) {
+    // make a selct request
+    //return a response with result
+});
 
     
 app.get('/ui/style.css', function (req, res) {
